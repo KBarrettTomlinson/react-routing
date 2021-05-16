@@ -4,7 +4,6 @@ import './TabLink.css';
 
 const TabLink = (props) => {
     const {tabLinkName, urlExtension} = props;
-    console.log();
     const history = useHistory();
 
     return (
